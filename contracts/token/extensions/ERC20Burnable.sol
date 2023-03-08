@@ -2,12 +2,12 @@
 
 pragma solidity ^0.8.0;
 
-import '@openzeppelin/contracts-upgradeable@4.3.2/utils/ContextUpgradeable.sol';
-import '@openzeppelin/contracts-upgradeable@4.3.2/proxy/utils/Initializable.sol';
-import '@openzeppelin/contracts-upgradeable@4.3.2/token/ERC20/ERC20Upgradeable.sol';
+import '@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol';
+import '@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol';
+import '@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol';
 
 /**
- * @dev Based on @openzeppelin/contracts-upgradeable@4.3.2/token/ERC20/extensions/ERC20BurnableUpgradeable.sol
+ * @dev Based on @openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol
  */
 abstract contract ERC20Burnable is Initializable, ContextUpgradeable, ERC20Upgradeable {
     bool public burnable;

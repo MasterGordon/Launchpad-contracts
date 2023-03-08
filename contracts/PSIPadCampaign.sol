@@ -3,12 +3,12 @@
 pragma solidity ^0.8.0;
 pragma abicoder v2;
 
-import '@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol';
-import '@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol';
-import '@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol';
-import '@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol';
-import '@openzeppelin/contracts-upgradeable/token/ERC20/utils/SafeERC20Upgradeable.sol';
-import '@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/access/OwnableUpgradeable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/utils/AddressUpgradeable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/utils/math/SafeMathUpgradeable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/proxy/utils/Initializable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/token/ERC20/utils/SafeERC20Upgradeable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/token/ERC20/IERC20Upgradeable.sol';
 import './interfaces/IPSIPadCampaign.sol';
 import './interfaces/IPSIPadCampaignFactory.sol';
 import './interfaces/IFeeAggregator.sol';

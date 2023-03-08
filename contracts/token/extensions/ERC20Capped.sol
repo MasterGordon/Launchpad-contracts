@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.0;
 
-import '@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol';
+import '@openzeppelin/contracts-upgradeable@4.3.2/token/ERC20/ERC20Upgradeable.sol';
 
 /**
- * @dev Based on @openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20CappedUpgradeable.sol
+ * @dev Based on @openzeppelin/contracts-upgradeable@4.3.2/token/ERC20/extensions/ERC20CappedUpgradeable.sol
  */
 abstract contract ERC20Capped is ERC20Upgradeable {
     uint256 public cap;
